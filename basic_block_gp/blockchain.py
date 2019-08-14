@@ -105,7 +105,7 @@ def mine():
         print(f'failure: {proof}')
         proof += 1
 
-    print("success: YOU RICH")
+    print("success: YOUR RICH")
 
     blockchain.new_transaction(
         recipient="0",
@@ -157,3 +157,4 @@ def full_chain():
 
 if __name__ == '__main__':
     app.run(host='localhost', port=5000)
+re
